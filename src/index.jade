@@ -5,6 +5,13 @@ html(lang="ja")
     title Event Search
     link(rel='stylesheet', href='styles/style.css', media='all')
   body
+    h1 Event Search
+    main
+      form#search-form
+        input#search-input(type="search" placeholder="ex. JavaScript")
+        button(type="submit") Search
+
+      ul#event-list
 
     // build:js scripts/main.js
     script(src='scripts/script.js')

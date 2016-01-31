@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #393e46;
+  color: #eee;
+  font-size: 1.4rem;
+  font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: normal;
+}
