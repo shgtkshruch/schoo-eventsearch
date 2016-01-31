@@ -8,8 +8,7 @@ searchEvents = (event) ->
   event.preventDefault()
   keyword = searchInput.value
 
-  if !keyword
-    return
+  if !keyword then return
 
   # 空白をカンマに変換して複数キーワードに対応
   keyword = keyword.replace /[ \s]/g, ','
